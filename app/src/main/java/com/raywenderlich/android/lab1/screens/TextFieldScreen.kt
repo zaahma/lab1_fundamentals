@@ -27,5 +27,22 @@ fun TextFieldScreen() {
 
 @Composable
 fun MyTextField() {
-    //TODO add your code here
+    fun MyTextField() {
+        val textValue = remember { mutableStateOf(value = " ") }
+        val primaryColor = colorResource(id = R.color.purple_500)
+
+        OutlinedTextField(
+
+            label = {text(text = stringResource(id = R.string.insert_text))},
+
+
+            )
+
+
+
+        TextField(value =textValue.value ,
+            onValueChange ={textValue.value = it},
+            label = {}
+        )
+    }
 }
