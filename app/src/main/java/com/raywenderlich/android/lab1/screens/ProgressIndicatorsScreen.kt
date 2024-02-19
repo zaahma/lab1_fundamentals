@@ -18,7 +18,10 @@ fun ProgressIndicatorScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        //TODO add your code here
+        Circular Progress Indicator(
+            color = color Resource(id = android.compose.ui.R.color.vector_tint_theme_color),
+            strokeWidth = 5.dp
+                    Linear Progress Indicator(progress = 0.5f)
     }
 
     BackButtonHandler {

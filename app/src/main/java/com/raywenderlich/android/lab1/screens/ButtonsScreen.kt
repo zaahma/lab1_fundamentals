@@ -28,7 +28,7 @@ fun ExploreButtonsScreen() {
 
 @Composable
 fun MyButton() {
-   
+
         Button(
             onClick = (},
     colors = Button Defaults.button Colors(background Color = color Resource(id
